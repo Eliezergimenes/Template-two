@@ -1,0 +1,52 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+body{
+	width: 100%;
+	background-size: cover;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: #fff;
+}
+	.navbar-inverse .navbar-nav>li>a:hover{
+	background: #fff;
+	color: #000;
+	transition-duration: 0.7s;
+}
+.team{
+	text-align: center;
+	padding-top: 40px;	
+}
+#line{
+	height: 1px;
+	background: gray;
+	border-bottom: gray;
+}
+	.team h2{
+		font-weight: bold;
+	} 
+.peoples{
+	padding-top: 10px;
+	text-align: center;
+}
+	.peoples img{
+	width: 200px;
+	}
+		.peoples p{
+			padding-top: 10px;
+			text-align: center;
+		}
+			.peoples h3{
+				text-align: center;
+				font-weight: bold;
+			}
+.work{
+	margin-top: 50px;
+	background: #333333;
+	color: #fff;
+	text-align: left;
+	padding: 50px;
+}
