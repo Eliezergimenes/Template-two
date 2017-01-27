@@ -1,6 +1,7 @@
 *{
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 }
 body{
 	width: 100%;
@@ -49,4 +50,31 @@ body{
 	color: #fff;
 	text-align: left;
 	padding: 50px;
+}
+.work h3{
+	text-align: center;
+	color: blue;
+	font-weight: bold;
+	letter-spacing: 0.3em;
+}
+.contact{
+	text-align: center;
+	color: #fff;
+}
+.fundo{
+	padding: 10%;
+	background-image: url(../images/capa.jpg);
+	background-size: cover;
+	width: 100%;
+	background-size: 100%;
+}
+.btn{
+	background: blue;
+	padding-right: 2%;
+	padding-left: 2%;
+	color: #fff;
+}
+.btn:hover{
+	font-weight: bold;
+	transition-duration: 0.4s;
 }
